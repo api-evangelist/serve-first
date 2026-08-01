@@ -1,7 +1,29 @@
 aid: serve-first
 name: Serve First
-description: Serve First is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Serve First is a UK-based AI-driven customer experience (CX) platform that
+  unifies reviews, surveys, receipts, in-location feedback terminals,
+  operational audits, and mystery shopping into a single dashboard. It turns
+  real-time customer feedback into role-based, actionable insight, with
+  sentiment analysis and unified reporting across retail, hospitality,
+  facilities management, health & wellness, and franchise businesses. Serve
+  First also provides Client Connect journey/workflow automation and Martyn's
+  Law public-protection compliance management. Serve First does not currently
+  publish a public developer API or OpenAPI specification; this profile
+  captures company identity plus verified security and compliance posture
+  (SOC 2 and ISO 27001 via a Sprinto-hosted trust center).
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://servefirst.co.uk/wp-content/uploads/2025/10/Untitled-design-23.png
 url: https://raw.githubusercontent.com/api-evangelist/serve-first/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +33,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Customer Experience
+- Customer Feedback
+- Voice of the Customer
+- Mystery Shopping
+- Surveys
+- Analytics
+- Artificial Intelligence
+- Retail
+- Hospitality
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +54,34 @@ maintainers:
 common:
 - type: Website
   url: https://servefirst.co.uk/
+- type: Blog
+  url: https://servefirst.co.uk/blog/
+- type: News
+  url: https://servefirst.co.uk/news/
+- type: Support
+  url: https://servefirst.co.uk/contact-us/
+- type: Login
+  url: https://app.servefirst.co.uk/user/login
+- type: PrivacyPolicy
+  url: https://servefirst.co.uk/privacy-policy/
+- type: CookiePolicy
+  url: https://servefirst.co.uk/cookies-policy/
+- type: TrustCenter
+  url: security/serve-first-trust-center.yml
+- type: Compliance
+  url: https://app.sprinto.com/trust-center/view/4a60de1c-ac87-4d00-8e80-344d8351c126
+- type: DomainSecurity
+  url: security/serve-first-domain-security.yml
+- type: LLMsTxt
+  url: llms/serve-first-llms.txt
+- type: LinkedIn
+  url: https://www.linkedin.com/company/serve-first-cx
+- type: Facebook
+  url: https://www.facebook.com/servefirstcx
+- type: Instagram
+  url: https://www.instagram.com/servefirstcx/
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1
