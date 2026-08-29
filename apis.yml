@@ -12,6 +12,17 @@ description: >-
   publish a public developer API or OpenAPI specification; this profile
   captures company identity plus verified security and compliance posture
   (SOC 2 and ISO 27001 via a Sprinto-hosted trust center).
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
